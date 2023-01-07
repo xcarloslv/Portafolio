@@ -1,0 +1,72 @@
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+.seccion-1, .seccion-2, .seccion-3{
+    position:relative;
+    opacity: 0.7;;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.seccion-1{
+    background-image:url('https://3.bp.blogspot.com/_aIrU_NInAww/TS1JLhJ0l-I/AAAAAAAAAg8/SXm0DCrwUEQ/s1600/Paisajesnaturales+%252832%2529.jpg');
+    min-height:100%;  
+}
+  
+.seccion-2{
+    background-image:url('https://2.bp.blogspot.com/_EZ16vWYvHHg/TUNkxX9LeRI/AAAAAAAAWf8/KDFf6j1R7W4/s1600/www.BancodeImagenesGratuitas.com%2B-%2BMelbourne%2BAustralia.jpg');
+    min-height:700px;
+}
+.seccion-3{
+    background-image:url('https://c2.staticflickr.com/6/5186/5741506301_11350ab4d2_b.jpg');
+    min-height:700px;
+}
+section{
+    text-align:center;
+  padding:50px 80px;
+}
+.seccion-light{
+    background-color:#f4f4f4;
+    color:#666;
+}
+.seccion-dark{
+    background-color:#282e34;
+    color:#ddd;
+}
+.text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+.border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+}
+.border-trans{
+    color:white;
+}
+@media(max-width:568px){
+    .seccion-1, .seccion-2, .seccion-3{
+      background-attachment:scroll;
+    }
+  }
+  

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>FORM</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="header"> Ejemplo de formulario en una pagina</h1>
+            <p id="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </header>
+        <div>
+            <form  class="form">
+                <div class="text">
+                    <p><label class="lbl"> Nombre:</label></p>
+                    <input type="text" name="nombre" class="txtbox" placeholder="Introduzca el nombre">
+                    <p><label class="lbl"> Email:</label></p>
+                    <input type="text" name="email" class="txtbox" placeholder="Introduzca el email">
+                    <p><label class="lbl"> Teléfono:</label></p>            
+                    <input type="text" name="number" class="txtbox" placeholder="Introduzca el numero ">
+                    <p><label class="lbl">Edad: <span class="clue">(optional)</span></label></p>
+                    <input type="text" name="age" class="txtbox" placeholder="Introduzca su edad" min="18" max="99">
+                </div>
+                <div class="text">
+                    <p class="lbl">¿Qué opción describe mejor su función actual?</p>
+                    <select name="" id="dropdown" required >
+                        <option disabled selected value> Seleccione el rol actual</option>
+                        <option value="student">Estudiante</option>
+                        <option value="job">Tiempo completo trabajando</option>
+                    </select>
+                </div>
+                <div class="text">
+                    <p class="lbl">¿Recomendarías freeCodeCamp a una amiga?</p>
+                    <label>
+                        <input type="radio" name="recommend" value="definitely" class="input-radio" checked> Definitivamente </label>
+                        <br>
+                    <label>
+                        <input type="radio" name="recommend" value="maybe" class="input-radio"> Quizas</label>    
+                        <br>
+                    <label>
+                        <input type="radio" name="recommend" value="not-sure" class="input-radio"> No muy seguro </label>    
+                        <br>
+                </div>
+                <div class="text">
+                    <p class="lbl">
+                        ¿Qué te gustaría ver mejorado?
+                        <span class="clue">(Marque todo lo que corresponda)</span>
+                    </p>
+                    <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox" />Proyecto front-end</label> <br>
+                    <label><input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox" />Proyecto back-end</label><br>
+                    <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox" />Visualisacion de data</label><br>
+                    <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox" />Retos</label><br>
+                </div>
+                <div class="text">
+                    <p class="lbl">
+                        ¿Algun comentario o sugerencia?
+                    </p>
+                    <textarea name="comments" class="input-textarea" placeholder="Ingrese su comentario aqui..."></textarea>
+                </div>
+                <div class="text">
+                    <button type="submit" id="submit-button">
+                        Enviar
+                    </button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
