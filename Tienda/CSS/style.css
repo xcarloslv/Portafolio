@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+}
+.container-login{
+    width: 30vw;
+    height: 100vh;
+}
+.body-style{
+    padding-left: 4rem; 
+    padding-right: 4.5rem;
+}
+.header{
+    padding-top: 3rem ;
+    padding-bottom: 4.5rem ;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+.tittle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0.3rem ;
+}
+.texto{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    
+}
+.texto2{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.input{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 0.8rem;
+
+}
+.row-check{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    
+}
+
+.label-checkbox-sign{
+    margin-left: 0.5rem;
+}
+.label-checkbox-sign-link{
+    margin-left: 7rem;
+}
+.btn{
+    text-decoration: none;
+    text-align: center;
+    padding: 0.7rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Rowdies', cursive;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.btn-login{
+    
+    background-color: #5732F9 ;
+    color: white;
+    border: none;
+}
+.row-email-address{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+hr{
+    margin-top: 0.5rem;
+    border: 0;
+    border-top: 1px #dad4d4 solid;
+    width:4.9rem;
+}
+.btn-google{
+
+    background-color: white ;
+    color: grey;
+    border: 1px #dad4d4 solid;
+
+}
+.logo_google{
+    margin-right: 0.5rem;
+    padding: 0;
+    width: 1rem ;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    padding-top: 4rem ;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+}
+.container-img{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.img-phone-login{
+    height:100vh ;
+    width: 70vw;
+}
+
+@media (max-width:1440px)
+{
+    .header
+    {
+        padding-top:1rem ;
+        padding-bottom:2rem ;
+    }
+    .container-login{
+        width: 40vw;
+    }
+    .img-phone-login
+    {
+        width: 60vw;
+    }
+   
+}
+@media (max-width:1024px) {
+    .header{
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+    }
+    .container-login{
+        width: 100vw;
+    }
+    .container-img{
+        display: none;
+    }
+    .row-email-address{
+        justify-content: center;
+    }
+    hr{
+        width: 30.9vw;
+    }
+    .tittle{
+        font-size: 2rem;
+    }
+    .texto{
+        font-size: 1rem;
+        
+    }
+    .form{
+        font-size: 1.3rem;
+    }
+    .texto2{
+        font-size: 0.9rem;
+    }
+    .label-checkbox-sign-link{
+        margin-left: 35rem;
+    }
+
+}
+@media  (max-width:768px){
+    .header{
+        padding-bottom: 4rem;
+        padding-top: 3rem;
+    }
+    .tittle{
+        font-size: 1.8rem;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+    .form{
+        font-size: 1.4rem;
+    }
+    .input{
+        padding: 0.8rem;
+    }
+    .label-checkbox-sign-link{
+        margin-left: 16.6rem;
+    }
+    .row-check{
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+
+}
+@media  (max-width:425px){
+    .label-checkbox-sign-link{
+        margin-left: 5.3rem;
+    }
+
+}
+@media  (max-width:375px){
+    .label-checkbox-sign-link{
+        margin-left: 1.9rem;
+    }
+
+
+}
+@media  (max-width:320px){
+    .label-checkbox-sign-link{
+        margin-left: 0.5rem;
+    }
+
+}
