@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.img-logo{
+    width: 10rem;
+}
+.search-engine{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 6rem;
+   
+}
+.style-container{
+    background-color: #F3F3F3;
+    border: none;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.categories-style{
+    width: 15rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem 0rem 0rem 0.4rem;
+    
+}
+.search{
+    width: 30rem;
+    height: 1.1rem;
+    padding: 0.8rem;
+    border-radius: 0rem 0.4rem 0.4rem 0px;
+    border-left:0.1rem solid #D4D4D4 ;
+    
+}
+.img-search{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 44rem;
+    width: 2rem;
+    height: 2rem;
+}
+.support-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0.8rem;
+    margin-left: 8rem;  
+    font-family: 'Ubuntu', sans-serif;
+}
+.support-number p{
+    color: #AEAEAE;
+    font-size: 0.8rem;
+}
+.icon-perfil{
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+   
+}
+.container-icons{
+    margin-left: 6rem;
+    display: flex;
+    align-items: center;
+}
+.container-money{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+.money{
+    font-weight: bold;
+}
+.separation hr{
+    border-top: 1px solid #dad7d7;
+}
