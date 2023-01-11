@@ -170,6 +170,7 @@
     margin-right: 0.5rem;
 }
 .btn-drop2{
+    display: flex;
     cursor: pointer;
     border: none;
     font-family: 'Ubuntu', sans-serif;
@@ -178,3 +179,17 @@
     padding: 1rem;
     padding-right: 3rem;
 }
+.img-dropdown{
+    width:1rem ;
+    height:1rem ;
+    padding-left: 0.5rem;
+}
+.carrousel{
+    margin-left:5rem ;
+    margin-right: 5rem;
+}
+.background-img{
+    width: 100%;
+    height: 40rem;
+}
+
